@@ -1,7 +1,12 @@
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 
 h1, h2, h3, h4, h5, h6, .navbar {
   margin: 0;
+}
+
+.navbar {
+  min-height: 50px;
 }
 
 .btn{
@@ -28,6 +33,14 @@ h1, h2, h3, h4, h5, h6, .navbar {
 .navbar-brand{
   height: 100px;
   width: 100px;
+}
+
+.nav-link {
+  font-family: 'Oswald', sans-serif;
+}
+
+.nav-link a {
+  font-family: 'Oswald', sans-serif;
 }
 
 .hero {
