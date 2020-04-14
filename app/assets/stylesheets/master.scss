@@ -53,3 +53,38 @@ h1, h2, h3, h4, h5, h6, .navbar {
   height: 370px;
   box-shadow: 0px 3px 8px #2a2a2a;
 }
+
+.carousel-inner > .carousel-item > img, .carousel-inner > .carousel-item > a > img{
+  max-height: 550px;
+  width: 100%;
+}
+
+.carousel-item.active, 
+.carousel-item-next, 
+.carousel-item-prev {
+  display: block;
+}
+
+.carousel {
+  box-shadow: 0px 3px 8px #2a2a2a;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.title_services{
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.services_done {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+.pic {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
